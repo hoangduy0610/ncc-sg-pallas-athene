@@ -1,11 +1,12 @@
 Dãy số Fibonacci được định nghĩa bởi công thức:
 
 $$
-\left\{\begin{matrix}
-F_{0}=F_{1}=1
-\\ 
-F_{n}=F_{n-1}+F_{n-2}, \forall n\geq 2
-\end{matrix}\right.
+\begin{align}
+    \begin{cases}
+       	F_{0}=F_{1}=1 \\\
+		F_{n}=F_{n-1}+F_{n-2}, \forall n\geq 2
+    \end{cases}
+\end{align}
 $$
 
 **Yêu cầu:** Cho số nguyên không âm $n$, hãy tính $F_{n}$.
